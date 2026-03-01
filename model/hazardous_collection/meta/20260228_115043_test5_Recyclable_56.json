@@ -1,0 +1,19 @@
+{
+  "source_path": "C:\\Users\\hp\\Desktop\\TECHNEX2026PROJECT\\model\\test5.jpeg",
+  "saved_path": "C:\\Users\\hp\\Desktop\\TECHNEX2026PROJECT\\model\\hazardous_collection\\images\\20260228_115043_test5_Recyclable_56.jpeg",
+  "timestamp_utc": "2026-02-28T11:50:43.285006Z",
+  "policy": {
+    "min_confidence": 65.0,
+    "focus_categories": [
+      "Hazardous",
+      "Unknown"
+    ]
+  },
+  "prediction": {
+    "success": true,
+    "object_detected": "plastic",
+    "waste_category": "Recyclable",
+    "confidence": 56.76,
+    "second_life": "Recyclable into polyester fibre for clothing industry"
+  }
+}

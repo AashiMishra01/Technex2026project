@@ -1,3 +1,8 @@
-/.venv
-/.vscode
-/__pycache__
+venv/
+.venv/
+__pycache__/
+node_modules/
+build/
+*.pyc
+.vscode/
+temp_*.jpg

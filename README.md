@@ -26,30 +26,33 @@ India generates **62 million tonnes** of waste annually. Less than **20% is corr
 - **Circular Economy Score** — Second life suggestion for every waste item
 
 **Future Vision**
+
 - **Community Leaderboard** — Campus/city-wide rankings based on waste correctly segregated, encouraging healthy competition and sustained engagement
 
 ---
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| AI Model | Roboflow — 99.1% accuracy, 52 waste classes |
-| Backend | Python + FastAPI |
-| Frontend | React.js + TailwindCSS + Recharts |
-| Camera | OpenCV |
-| Database | Firebase Firestore |
+| Layer    | Technology                                  |
+| -------- | ------------------------------------------- |
+| AI Model | Roboflow — 79.1% accuracy, 52 waste classes |
+| Backend  | Python + FastAPI                            |
+| Frontend | React.js + TailwindCSS + Recharts           |
+| Camera   | OpenCV                                      |
+| Database | Firebase Firestore                          |
 
 ---
 
 ## Setup & Installation
 
 ### Prerequisites
+
 - Python 3.10+
 - Node.js 18+
 - Webcam (for live scanning)
 
 ### Backend Setup
+
 ```bash
 python -m venv venv
 venv\Scripts\activate          # Windows
@@ -62,6 +65,7 @@ uvicorn main:app --reload
 ```
 
 ### Frontend Setup
+
 ```bash
 cd frontend
 npm install
@@ -72,10 +76,10 @@ npm start
 
 ## Target Audience
 
-| User | What They Get |
-|---|---|
-| Citizens | Personal carbon impact and disposal guidance |
-| Campus Admins | Aggregate waste patterns and analytics |
+| User           | What They Get                                |
+| -------------- | -------------------------------------------- |
+| Citizens       | Personal carbon impact and disposal guidance |
+| Campus Admins  | Aggregate waste patterns and analytics       |
 | Municipalities | City-wide data to optimize collection routes |
 
 ---

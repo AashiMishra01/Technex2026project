@@ -1,18 +1,18 @@
-# SortSmart AI — Waste Segregation & Carbon Footprint Analyser
+# Verdant — Waste Segregation & Carbon Footprint Analyser
 
 > Technex Green Hackathon 2026 | Problem Statement 1
 
 ---
 
-## What is SortSmart AI?
+## What is Verdant?
 
-SortSmart AI is an AI-powered waste classification system that identifies waste from images, maps it to the correct disposal category, calculates carbon footprint savings, and displays sustainability analytics — all in real time.
+Verdant is an AI-powered waste classification system that identifies waste from images, maps it to the correct disposal category, calculates carbon footprint savings, and displays sustainability analytics — all in real time.
 
 ---
 
 ## Problem It Solves
 
-India generates **62 million tonnes** of waste annually. Less than **20% is correctly segregated**. The rest ends up in landfills, releasing methane — 25x more potent than CO₂. SortSmart AI closes this gap by making correct waste disposal instant, effortless, and impactful.
+India generates **62 million tonnes** of waste annually. Less than **20% is correctly segregated**. The rest ends up in landfills, releasing methane — 25x more potent than CO₂. Verdant closes this gap by making correct waste disposal instant, effortless, and impactful.
 
 ---
 
@@ -39,7 +39,6 @@ India generates **62 million tonnes** of waste annually. Less than **20% is corr
 | Backend  | Python + FastAPI                            |
 | Frontend | React.js + TailwindCSS + Recharts           |
 | Camera   | OpenCV                                      |
-| Database | Firebase Firestore                          |
 
 ---
 
@@ -60,14 +59,13 @@ source venv/bin/activate       # Mac/Linux
 
 pip install fastapi uvicorn inference-sdk opencv-python numpy
 
-cd backend
-uvicorn main:app --reload
+uvicorn server:app --reload --port 8000
 ```
 
 ### Frontend Setup
 
 ```bash
-cd frontend
+cd waste-classifier
 npm install
 npm start
 ```
